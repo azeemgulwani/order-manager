@@ -22,14 +22,16 @@ inventory[1].price = 3.49;
 // Update stock
 inventory[2].stock = 21;
 
-// Step 4:
+// Step 4: Create and Process Orders 
+
+// Create Orders 
 orders = [
-    {orderId:"04789", items = [
+    {orderId:"04789", items : [
         {sku:"SKU-002", qty:4},
          {sku:"SKU-004", qty:6},
         ]
     },
-    {orderId:"06983", items = [
+    {orderId:"06983", items : [
         {sku:"SKU-001", qty:3},
          {sku:"SKU-003", qty:7},
         ]
