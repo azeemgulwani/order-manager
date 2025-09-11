@@ -14,3 +14,11 @@ inventory.forEach(obj => console.log(`${obj.sku}\t|\t ${obj.name}\t|\t $${obj.pr
 // Step 3: Manage Inventory Changes
 
 inventory.push({sku:"SKU-005", name: "Food Container Set", price:24.49, stock:21});
+inventory.pop();
+
+// Update Price
+inventory[1].price = 3.49;
+
+// Update stock
+inventory[2].stock = 21;
+
