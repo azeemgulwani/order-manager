@@ -9,4 +9,4 @@ let inventory = [
 ];
 
 // Summary of Products
-inventory.forEach(obj => console.log(`${obj.sku}\t|\t ${obj.name}\t|\t ${obj.price}\t|\t ${obj.stock}`));
+inventory.forEach(obj => console.log(`${obj.sku}\t|\t ${obj.name}\t|\t $${obj.price}\t|\t Stock: ${obj.stock}`));
